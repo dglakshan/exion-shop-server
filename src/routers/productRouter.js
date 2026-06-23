@@ -1,7 +1,7 @@
 import express from "express";
-import { authMiddleware } from "../middlewares/authMiddleware";
-import { roleMiddleware } from "../middlewares/roleMiddleware";
-import { ROLES } from "../utils/constants";
+import { authMiddleware } from "../middlewares/authMiddleware.js";
+import { roleMiddleware } from "../middlewares/roleMiddleware.js";
+import { ROLES } from "../utils/constants.js";
 import {
   addProduct,
   allProducts,
