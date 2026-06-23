@@ -4,10 +4,10 @@ import { roleMiddleware } from "../middlewares/roleMiddleware.js";
 import { ROLES } from "../utils/constants.js";
 import {
   addProduct,
-  allProducts,
-  generateId,
   latestProducts,
-} from "../Controllers/ProductController.js";
+  generateId,
+  allProducts,
+} from "../controllers/productController.js";
 
 const productRouter = express.Router();
 
