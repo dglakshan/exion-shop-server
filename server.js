@@ -5,6 +5,7 @@ import { errorMiddleware } from "./src/middlewares/errorMiddleware.js";
 import orderRouter from "./src/routers/orderRouter.js";
 import productRouter from "./src/routers/productRouter.js";
 import userRouter from "./src/routers/userRouter.js";
+import cors from "cors";
 
 const app = express();
 
