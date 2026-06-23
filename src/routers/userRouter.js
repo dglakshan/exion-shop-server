@@ -7,6 +7,7 @@ import {
 
 import { authMiddleware } from "../middlewares/authMiddleware.js";
 import { roleMiddleware } from "../middlewares/roleMiddleware.js";
+import { ROLES } from "../utils/constants.js";
 
 const userRouter = express.Router();
 
