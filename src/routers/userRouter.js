@@ -3,7 +3,8 @@ import {
   userLogin,
   userRegister,
   verifyOTP,
-} from "../Controllers/AuthController.js";
+} from "../controllers/authController.js";
+
 import { authMiddleware } from "../middlewares/authMiddleware.js";
 import { roleMiddleware } from "../middlewares/roleMiddleware.js";
 
