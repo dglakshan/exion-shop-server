@@ -1,4 +1,4 @@
-import { STATUS_CODES } from "../utils/constants";
+import { STATUS_CODES } from "../utils/constants.js";
 
 export const errorMiddleware = (err, req, res, next) => {
   const statusCode = err.statusCode || STATUS_CODES.SERVER_ERROR;

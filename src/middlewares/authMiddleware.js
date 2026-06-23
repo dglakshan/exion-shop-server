@@ -1,5 +1,5 @@
 import expressAsyncHandler from "express-async-handler";
-import { AppError } from "../utils/appError";
+import { AppError } from "../utils/appError.js";
 import jwt from "jsonwebtoken";
 
 export const authMiddleware = expressAsyncHandler(async (req, res, next) => {
