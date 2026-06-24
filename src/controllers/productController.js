@@ -2,6 +2,7 @@ import expressAsyncHandler from "express-async-handler";
 import Product from "../models/productModel.js";
 import { AppError } from "../utils/appError.js";
 import { generateProductId } from "../utils/generateProductId.js";
+import { STATUS_CODES } from "../utils/constants.js";
 
 export const addProduct = expressAsyncHandler(async (req, res, next) => {
   const {
