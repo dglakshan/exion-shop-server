@@ -7,7 +7,7 @@ export const Payment = expressAsyncHandler(async (req, res) => {
 
   const order_id = `ORD_${Date.now()}`;
 
-  const newOrder = await new Order.create({
+  const newOrder = await Order.create({
     orderId: order_id,
     user: userEmail || "Guest User",
     items: items,
