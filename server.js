@@ -6,6 +6,7 @@ import orderRouter from "./src/routers/orderRouter.js";
 import productRouter from "./src/routers/productRouter.js";
 import userRouter from "./src/routers/userRouter.js";
 import cors from "cors";
+import { config } from "./src/config/appConfig.js";
 
 const app = express();
 
